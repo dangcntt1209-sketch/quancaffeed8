@@ -1,0 +1,146 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #feffeb; 
+}
+
+header {
+  background-color: #bda57b;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+}
+
+nav a {
+  margin: 0 35px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.banner {
+  text-align: center;
+  background-color: #ffeaf5;
+  padding: 20px;
+}
+
+.banner img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.gioi-thieu {
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #ffd9f2;
+  border-radius: 8px;
+  background-color: #fff7fb;
+}
+
+.coffee-section {
+  background-color: #4a2a08;
+  color: #fefefe;
+  border: 1px solid #f3f0f0;
+}
+
+.coffee-section h2 {
+  color: #fefefe;
+}
+
+.coffee-section ul {
+  color: #fefefe;
+}
+
+.gioi-thieu ul {
+  margin-left: 20px;
+}
+
+footer {
+  background-color: #d0b992;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.two-images {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.gallery {
+  text-align: center;
+}
+
+.khung-anh {
+  display: inline-block;
+  margin: 15px;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: top;
+}
+
+.gallery-item img {
+  display: block;
+  width: 250px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.image-khung {
+  margin: 0 15px;
+  text-align: center;
+  border: 2px solid #080808;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #fff;
+  width: 420px;
+}
+
+.image-khung img {
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.tintuc {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  margin: 20px;
+}
+
+.tintuc h2 {
+  font-size: 22px;
+  color: #006400;
+  margin-bottom: 15px;
+}
+
+h2 {
+  text-align: center;
+  color: #8B4513;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+td {
+  background-color: #ffeecd;
+  padding: 15px;
+}
